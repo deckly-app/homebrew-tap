@@ -2,17 +2,17 @@
 # in the Deckly repository instead.
 class Deckly < Formula
   desc "Unofficial, independent app for Stream Deck hardware"
-  homepage "https://github.com/auuruum/Deckly"
-  version "0.0.1"
+  homepage "https://github.com/deckly-app/Deckly"
+  version "0.0.5"
   license "MIT"
 
   on_arm do
-    url "https://github.com/auuruum/Deckly/releases/download/v0.0.1/deckly-aarch64-apple-darwin.tar.gz"
-    sha256 "f314c198a959314ad127c13d9eca493ba4e19186d8989f0ee98d4ed9dbc231eb"
+    url "https://github.com/deckly-app/Deckly/releases/download/v0.0.5/deckly-aarch64-apple-darwin.tar.gz"
+    sha256 "55aa8ed087877ae30f95b4c6b2827783bfaf6cb2a9200aae32db8334354c9286"
   end
   on_intel do
-    url "https://github.com/auuruum/Deckly/releases/download/v0.0.1/deckly-x86_64-apple-darwin.tar.gz"
-    sha256 "da34a669864941ff7e0b21fd9d27234556e4ca7ade5a07dd3b862074e597587b"
+    url "https://github.com/deckly-app/Deckly/releases/download/v0.0.5/deckly-x86_64-apple-darwin.tar.gz"
+    sha256 "d92b02dac6cc7d0ad5a7fc3a835d3dcf43b53d96fe1f2fda04556a999b11ca83"
   end
 
   depends_on :macos
