@@ -3,16 +3,16 @@
 class Deckly < Formula
   desc "Unofficial, independent app for Stream Deck hardware"
   homepage "https://github.com/deckly-app/Deckly"
-  version "0.0.5"
+  version "0.0.6"
   license "MIT"
 
   on_arm do
-    url "https://github.com/deckly-app/Deckly/releases/download/v0.0.5/deckly-aarch64-apple-darwin.tar.gz"
-    sha256 "55aa8ed087877ae30f95b4c6b2827783bfaf6cb2a9200aae32db8334354c9286"
+    url "https://github.com/deckly-app/Deckly/releases/download/v0.0.6/deckly-aarch64-apple-darwin.tar.gz"
+    sha256 "d30a387cf87979b342b81d5eff57936f73ab8f55ea48a5bd6ed16fbe69c023eb"
   end
   on_intel do
-    url "https://github.com/deckly-app/Deckly/releases/download/v0.0.5/deckly-x86_64-apple-darwin.tar.gz"
-    sha256 "d92b02dac6cc7d0ad5a7fc3a835d3dcf43b53d96fe1f2fda04556a999b11ca83"
+    url "https://github.com/deckly-app/Deckly/releases/download/v0.0.6/deckly-x86_64-apple-darwin.tar.gz"
+    sha256 "f91d0e5f7de59b691fc16dd965dfcf2bcd2a844cbd11bc4ae7716ec563fb2e12"
   end
 
   depends_on :macos
